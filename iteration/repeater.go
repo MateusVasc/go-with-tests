@@ -2,10 +2,10 @@ package iteration
 
 import "strings"
 
-func Repeat(c string) string {
+func Repeat(c string, times int) string {
 	var rep strings.Builder
 
-	for range 5 {
+	for range times {
 		rep.WriteString(c)
 	}
 
